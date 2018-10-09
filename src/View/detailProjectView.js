@@ -7,7 +7,7 @@ class DetailProjectView extends Component {
     super(props)
     // We put on state the properties we want to use and modify in the component
     this.state = {
-
+      projects : this.props.model.getChosenProject(),
     }
   }
 
@@ -19,17 +19,26 @@ class DetailProjectView extends Component {
     this.props.model.removeObserver(this);
   }
 
-  update(obj) {
+  update() {
     // setState causes the component to re-render
     this.setState({
-
+        projects : this.props.model.getChosenProject(),
     });
-  }
+    }
 
-  render() {
+
+
+  render(){
+
+  var newproject=null;
+  newproject= this.state.projects.map((project)=>
+    <div key={project.id} className="row">
+      <h4>{project.name}</h4>
+    </div>)
+
     return(
       <div>
-        <p>wawan</p>
+        {newproject}
       </div>
     );
   }

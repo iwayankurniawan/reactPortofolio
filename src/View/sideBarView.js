@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
+import './style.css';
 
 class SideBarView extends Component {
   constructor(props) {
@@ -19,17 +20,31 @@ class SideBarView extends Component {
     this.props.model.removeObserver(this);
   }
 
-  update(obj) {
+  update() {
     // setState causes the component to re-render
     this.setState({
 
     });
   }
 
+
   render() {
     return(
       <div>
-        <p>wawan</p>
+        <div className="koho-style">
+          <h2>I Wayan Kurniawan</h2>
+          <div className="row">
+            <Link to={"/project"}>
+              <button id="portfolio" className="btn">Portfolio</button>
+            </Link>
+          </div>
+          <div className="row">
+            <button id="Blog" className="btn"><a href="http://www.techraveller.com/" target="_blank">Blog</a></button>
+          </div>
+          <div className="row">
+            <button className="btn">About</button>
+          </div>
+        </div>
       </div>
     );
   }
