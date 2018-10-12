@@ -60,11 +60,13 @@ class MainView extends Component {
         {this.state.projects.map((project) => {
           //projectList = <img src={require('../images/'+ project.image)} className="col-sm-3 img-thumbnail img-fluid image"/>;
 
-          projectList =<div  class="img-container col-sm-3 ">
+          projectList = <div class="img-container col-sm-3">
             <Link to={"/" + project.id}>
               <img src={require('../images/'+ project.image)} className="img-thumbnail img-fluid"/>
               <div onClick={this.handleClicks} id={project.id} class="overlay">
-                <div onClick={this.handleClicks} id={project.id} class="text">{project.name}</div>
+                <div onClick={this.handleClicks} id={project.id} class="text">
+                  {project.name}
+                </div>
               </div>
             </Link>
           </div>
@@ -74,7 +76,7 @@ class MainView extends Component {
             );
           } else if(year == project.year && (this.state.updateTag == null || this.state.updateTag == "all")){
             return(
-             <div>{projectList}</div>
+              <div>{projectList}</div>
             );
           }
         })}

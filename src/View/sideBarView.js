@@ -33,6 +33,9 @@ class SideBarView extends Component {
       <div>
         <div className="koho-style">
           <h2>I Wayan Kurniawan</h2>
+          <div className="for-height row">
+
+          </div>
           <div className="row">
             <Link to={"/project"}>
               <button id="portfolio" className="btn">Portfolio</button>

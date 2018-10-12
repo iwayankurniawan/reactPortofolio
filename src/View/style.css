@@ -26,8 +26,6 @@
 
 
 /*Image hover style*/
-
-
 .image {
   display: block;
   width: 100%;
@@ -64,9 +62,81 @@
   text-align: center;
 }
 
+/*Styling year in mainview*/
 .year-content{
   font-family: 'KoHo', sans-serif;
   font-weight: bold;
   text-align: left;
   border-bottom: 2px solid #1a4876;
+}
+
+.detail-title{
+  font-family: 'KoHo', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: left;
+}
+
+.detail-description{
+  font-family: 'KoHo', sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+
+.detail-title-content{
+  font-family: 'KoHo', sans-serif;
+  font-weight: Bold;
+  font-size: 40px;
+  text-align: left;
+}
+
+.for-height{
+  height: 20vh;
+}
+
+/*Fade Transition*/
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+
+/*slide Transition*/
+.slide.enter{
+  opacity:0;
+  transform: scale(0.97) translateY(5px);
+  z-index: 1;
+}
+
+.slide-enter.slide-enter-active{
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity 300ms linear 100ms, transform 300ms ease-in-out 100ms;
+}
+
+.slide-exit{
+  opacity: 1;
+  transform: scale(1) translateY(5px);
+  transition: opacity 150ms linear, transform 150ms ease-out;
+}
+
+.slide.exit.done{
+  opacity :0;
+}
+
+.filter-center{
+  text-align: center;
 }

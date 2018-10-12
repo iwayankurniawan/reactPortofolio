@@ -34,10 +34,10 @@ class FilterView extends Component {
   render() {
     return(
       <div className="row koho-style">
-        <Link to={"/project"}><button onClick={this.handleClick} id="all" className="col-sm-2 btn">#All</button></Link>
-        <Link to={"/project"}><button onClick={this.handleClick} id="website" className="col-sm-2 btn">#Website</button></Link>
-        <Link to={"/project"}><button onClick={this.handleClick} id="apps" className="col-sm-2 btn">#Apps</button></Link>
-        <Link to={"/project"}><button onClick={this.handleClick} id="electrical" className="col-sm-2 btn">#Electrical</button></Link>
+        <Link to={"/project"}><button onClick={this.handleClick} id="all" className="col-sm-3 btn">#All</button></Link>
+        <Link to={"/project"}><button onClick={this.handleClick} id="website" className="col-sm-3 btn">#Website</button></Link>
+        <Link to={"/project"}><button onClick={this.handleClick} id="apps" className="col-sm-3 btn">#Apps</button></Link>
+        <Link to={"/project"}><button onClick={this.handleClick} id="electrical" className="col-sm-3 btn">#Electrical</button></Link>
       </div>
     );
   }

@@ -8,7 +8,11 @@ const portofolioModel = function () {
 		'image':'timelapse.jpg',
     'year':'2017',
     'course':'DH2650 Computer Game Design',
-    'tools':'Blender, Photoshop',
+    'tools':
+    [
+      {'skill':'Blender'},
+      {'skill':'Photoshop'}
+    ],
     'role':'Character Modelling and Animation (Rigging and Weighing)',
     'team':'Antoine Ladrech, Victor Kesten, Fredrik Ljung, I Wayan Kurniawan Aditya Wardana, Tianli Zhang, Enrique Perez Soler',
 		'description':'The game was created for the course DH2650 Computer Game Design at Kungliga Tekniska Högskolan in Stockholm, Sweden. The motivation behind creating a rhythm based game was that there currently is a shortage of said games within the PC market. We established that this perhaps was because of the genre being out of style. However – this game aims to not only revive the genre but also revolutionize it by adding 3rd person bird’s-eye view shooter elements!. In this project my part is to build a model called “small enemy” in blender and put the animation for that model, so this model can be used in the game. Also, I worked to put animation in another model like “final boss” model and “crazy girl” model using blender.',
@@ -18,7 +22,10 @@ const portofolioModel = function () {
       },{
         'link':'https://www.youtube.com/embed/4yWVmdotADo'
       }],
-    'imageList':[],
+    'imageList':[
+      {
+      'image':'timelapse.jpg'
+      }],
     'links':[
       {
         'site':'https://projecttimelapse.wordpress.com/',
@@ -36,7 +43,11 @@ const portofolioModel = function () {
   		'image':'spotify.jpg',
       'year':'2017',
       'course':'DM2601 Media Technology and Interaction Design',
-      'tools':'Android Studio, Unity',
+      'tools':
+      [
+        {'skill':'Android Studio'},
+        {'skill':'Unity'}
+      ],
       'role':'Programmer in both android studio and unity, Conduct Evaluation for the Design',
       'team':'Fredd Duque, Harianas Dewang, I Wayan Kurniawan',
   		'description':"This project is part of the course of Media Technology and Interaction Design in KTH Royal Institute of Technology. During this course, we try to implement double diamond design process to redesign music streaming service. In this project, we choose Spotify for the music streaming service we want to redesign. Through all the double diamond design process, we found a lot of new insights and idea, at the end we conclude to put game inside Spotify." +
@@ -61,7 +72,10 @@ const portofolioModel = function () {
   		'image':'chemistry.jpg',
       'year':'2017',
       'course':'-',
-      'tools':'Android Studio',
+      'tools':
+      [
+        {'skill':'Android Studio'}
+      ],
       'role':'Programmer',
       'team':'Alvin, Richard, Wawan',
   		'description':"My 2nd paid job for develop an android app. The purpose of this app is as learning tool for junior high student to learn basic chemistry. There are several features inside the app, there are. Periodic Table. This feature consists of periodic table, elements explanation and elements sorting based on type. When users see the periodic table, they can get explanation every element in the table by pressing the element name. Also, if users want to categorize the element based on type, there is a feature to sorting it in the periodic table. Memorize Technique. The problem of learn basic chemistry is to memorize the chemical element group. This app helps the student by providing memorize technique for all chemical group and drag and drop game, so student can train and learn in this app. Chemistry Formula. Give brief explanation of basic chemistry formula like electron affinity, atomic radius etc. If users press the picture, they will get more explanation of it.",
@@ -82,7 +96,10 @@ const portofolioModel = function () {
   		'image':'english.jpg',
       'year':'2017',
       'course':'-',
-      'tools':'Android Studio',
+      'tools':
+      [
+        {'skill':'Android Studio'}
+      ],
       'role':'Programmer',
       'team':'Alvin, Richard, Wawan',
   		'description':"This is my first project in android environment. With 2 of my friends, we try to build an app for elementary students to help them to learn English. This app consists with 3 features, there are: 1. Listening menu that help student to learn new English word by listening to the word and see the picture of the word. This menu have several categories like animals, times, activities, numbers, people around us and months. If students get confuse with the English word, we provide a Indonesia-English Dictionary to translate the English word into Indonesia. 2. Video, this feature help student, to learn English by watching some videos in several categories. The video resources are obtain from youtube using youtube API. 3. Quiz, after learning from the material above. We make a quiz for the students to test their knowledge with 20 questions. In the end their final score will be shows to them.",
@@ -103,7 +120,12 @@ const portofolioModel = function () {
   		'image':'converter.jpg',
       'year':'2016',
       'course':'-',
-      'tools':'Arduino,Eagle,Matlab',
+      'tools':
+      [
+        {'skill':'Arduino'},
+        {'skill':'Eagle'},
+        {'skill':'Matlab'}
+      ],
       'role':'Hardware Design, Control Design',
       'team':'I Wayan Kurniawan, Darian Verdy',
   		'description':"In the era of renewable energy, DC-DC Converter become one important part in renewable era because most of source of renewable, like photovoltaic only produce DC voltage so it need a converter to change their voltage level to another level. With the increase renewable energy especially PV, make the usage of DC Bus to connect all the renewable source become inevitable. To connect to DC Bus all source must have same voltage with the DC Bus that’s why DC-DC Converter become one important component. One of the topology from DC-DC Converter that can work in this situation is Buck-Boost, this topology has huge advantage because it can work in two mode, the first mode to increase the voltage and the other mode to reduce the output of the voltage."+
@@ -131,12 +153,16 @@ const portofolioModel = function () {
   		'image':'nao.jpg',
       'year':'2018',
       'course':'DT2140 Multimodal Interaction and Interfaces',
-      'tools':'-',
+      'tools':[
+        {'skill':'Nao Robot'}
+      ],
       'role':'-',
       'team':'I Wayan Kurniawan, Fredd Duque, Vincent Erik Wong, Malin Augustsson',
-  		'description':"",
+  		'description':"This project main focus is to shed some light on these people by helping the rest of the world without disabilities to learn a new language in a more engaging, interactive, intuitive and fun way by introducing a multimodal Robot as a language tutor",
       'video':[],
-      'imageList':[],
+      'imageList':[
+        {image:'nao.jpg'}
+      ],
       'links':[
         {
           'site':'https://vimeo.com/250599780',
@@ -149,12 +175,19 @@ const portofolioModel = function () {
   		'image':'away.png',
       'year':'2018',
       'course':'DH2321 Information Visualization',
-      'tools':'d3.js, javascript',
+      'tools':
+      [
+        {'skill':'d3.js'},
+        {'skill':'HTML'},
+        {'skill':'javascript'}
+      ],
       'role':'-',
       'team':'I Wayan Kurniawan, Kaua Melo, ',
-  		'description':"",
+  		'description':"Build a platform in d3.js environment to visualize UNHCR data about Refugee around the world",
       'video':[],
-      'imageList':[],
+      'imageList':[
+        {image:'away.png'}
+      ],
       'links':[
         {
           'site':'https://sonia-ch.github.io/ivis-project/',
@@ -163,6 +196,63 @@ const portofolioModel = function () {
           'site':'https://vimeo.com/265391354',
           'explain':'video'
           }
+        ]
+    },{
+      'id':8,
+  		'name':'Partybolaget',
+  		'type':'website',
+  		'image':'partybolaget1.JPG',
+      'year':'2018',
+      'course':'DH2642  Interaction Programming and the Dynamic Web',
+      'tools':
+      [
+        {'skill':'React.js'},
+        {'skill':'HTML'},
+        {'skill':'CSS'},
+        {'skill':'Firebase'}
+      ],
+      'role':'Developer',
+      'team':'I Wayan Kurniawan, Kaua Melo, Vincent Wong, Satu Cahaya Langit ',
+  		'description':"Create a party planner website using react framework and API from Systembolaget. This website using firebase to store user data",
+      'video':[],
+      'imageList':[
+        {image:'partybolaget1.JPG'},
+        {image:'partybolaget2.JPG'},
+        {image:'partybolaget3.JPG'}
+      ],
+      'links':[
+        {
+          'site':'https://partybolagetkth.firebaseapp.com/',
+          'explain':'website'}
+        ]
+    },{
+      'id':9,
+      'name':'Bali Zoo Inventory and Membership Website System',
+      'type':'website',
+      'image':'balizoowebsite1.JPG',
+      'year':'2018',
+      'course':'',
+      'tools':
+      [
+        {'skill':'React.js'},
+        {'skill':'HTML'},
+        {'skill':'CSS'},
+        {'skill':'Firebase'}
+      ],
+      'role':'Developer',
+      'team':'I Wayan Kurniawan',
+      'description':"Build a membership and inventory system for one of the largest zoo in Bali. Develop the system using react.js for the website and barcode scanner using Android studio. Store the data in firebase and gathering all the data from the apps side into the website side",
+      'video':[],
+      'imageList':[
+        {image:'balizoowebsite1.JPG'},
+        {image:'balizoowebsite2.JPG'},
+        {image:'balizoowebsite3.JPG'},
+        {image:'balizoowebsite4.JPG'}
+      ],
+      'links':[
+        {
+          'site':'',
+          'explain':'Can Not Publish'}
         ]
     }];
 
