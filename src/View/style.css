@@ -1,3 +1,29 @@
+/*Sidebar styling*/
+.name{
+  font-family: 'KoHo', sans-serif;
+  font-weight: Bold;
+  font-size: 40px;
+}
+
+.img-size{
+    width: 60%;
+    height: 60%;
+}
+
+.study{
+  font-family: 'KoHo', sans-serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.margin-sidebar{
+  margin-top: 15px;
+}
+
+.main-content{
+  margin-left: 25px;
+}
+
 /*Font style*/
 .koho-style{
     font-family: 'KoHo', sans-serif;
@@ -90,9 +116,6 @@
   text-align: left;
 }
 
-.for-height{
-  height: 20vh;
-}
 
 /*Fade Transition*/
 .fade-enter {

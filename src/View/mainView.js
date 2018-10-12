@@ -56,7 +56,7 @@ class MainView extends Component {
     return(
     <div key={year} className="row">
       <h1 className="year-content">{year}</h1>
-      <div className="row">
+      <div className="row alignLeft">
         {this.state.projects.map((project) => {
           //projectList = <img src={require('../images/'+ project.image)} className="col-sm-3 img-thumbnail img-fluid image"/>;
 

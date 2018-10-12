@@ -32,19 +32,23 @@ class SideBarView extends Component {
     return(
       <div>
         <div className="koho-style">
-          <h2>I Wayan Kurniawan</h2>
-          <div className="for-height row">
-
+          <p className="name">I Wayan Kurniawan</p>
+          <div className="row">
+            <img src={require('../images/photo.JPG')} className="img-size img-responsive img-circle img-thumbnail img-fluid"/>
           </div>
           <div className="row">
+            <p className="study row">Interactive Media Technology</p>
+            <p className="study row">KTH Royal Institute of Technology</p>
+          </div>
+          <div className="margin-sidebar row">
             <Link to={"/project"}>
               <button id="portfolio" className="btn">Portfolio</button>
             </Link>
           </div>
-          <div className="row">
+          <div className="margin-sidebar row">
             <button id="Blog" className="btn"><a href="http://www.techraveller.com/" target="_blank">Blog</a></button>
           </div>
-          <div className="row">
+          <div className="margin-sidebar row">
             <button className="btn">About</button>
           </div>
         </div>

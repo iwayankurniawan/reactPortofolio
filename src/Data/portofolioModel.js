@@ -67,7 +67,7 @@ const portofolioModel = function () {
           'explain':'Unity Part'}]
     },{
       'id':3,
-  		'name':'Basic Chemistry Learning Apps for Junior High School Students',
+  		'name':'Basic Chemistry Learning Apps',
   		'type':'apps',
   		'image':'chemistry.jpg',
       'year':'2017',
@@ -91,7 +91,7 @@ const portofolioModel = function () {
         ]
     },{
       'id':4,
-  		'name':'English Learning Apps for Elementary School Students',
+  		'name':'English Learning Apps for Kids',
   		'type':'apps',
   		'image':'english.jpg',
       'year':'2017',
@@ -172,7 +172,7 @@ const portofolioModel = function () {
       'id':7,
   		'name':'Away from home',
   		'type':'website',
-  		'image':'away.png',
+  		'image':'away.jpg',
       'year':'2018',
       'course':'DH2321 Information Visualization',
       'tools':
@@ -186,7 +186,7 @@ const portofolioModel = function () {
   		'description':"Build a platform in d3.js environment to visualize UNHCR data about Refugee around the world",
       'video':[],
       'imageList':[
-        {image:'away.png'}
+        {image:'away.jpg'}
       ],
       'links':[
         {
@@ -253,6 +253,60 @@ const portofolioModel = function () {
         {
           'site':'',
           'explain':'Can Not Publish'}
+        ]
+    },{
+      'id':10,
+      'name':'Bali Zoo Inventory and Membership Android System',
+      'type':'apps',
+      'image':'balizooandroid1.jpg',
+      'year':'2018',
+      'course':'',
+      'tools':
+      [
+        {'skill':'Android Studio'},
+        {'skill':'Barcode Scanner'}
+      ],
+      'role':'Developer',
+      'team':'I Wayan Kurniawan',
+      'description':"Build a membership and inventory system for one of the largest zoo in Bali. Develop the system using react.js for the website and barcode scanner using Android studio. The apps will scan barcode to store the data into firebase",
+      'video':[],
+      'imageList':[
+        {image:'balizooandroid1.jpg'},
+        {image:'balizooandroid2.jpg'},
+        {image:'balizooandroid3.jpg'}
+
+      ],
+      'links':[
+        {
+          'site':'',
+          'explain':'Can Not Publish'}
+        ]
+    },{
+      'id':11,
+      'name':'Storybo-AR-ding',
+      'type':'apps',
+      'image':'storyboarding1.JPG',
+      'year':'2018',
+      'course':'',
+      'tools':
+      [
+        {'skill':'ARcore'},
+        {'skill':'Unity'},
+        {'skill':'Photon Networking'}
+      ],
+      'role':'Developer and Networking',
+      'team':'I Wayan Kurniawan, Fred Duque, Alban Gauthier, Adam Karlsson',
+      'description':"Build collaborative augmented reality tool using ARcore and Photon networking to do previsualization movie scene",
+      'video':[],
+      'imageList':[
+        {image:'storyboarding1.JPG'},
+        {image:'storyboarding.JPG'}
+
+      ],
+      'links':[
+        {
+          'site':'https://youtu.be/1gJy9sopQ7Q',
+          'explain':'Video'}
         ]
     }];
 
